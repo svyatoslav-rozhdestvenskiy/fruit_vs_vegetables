@@ -182,10 +182,10 @@ fruit_test_path = "fruitvsvegetable/test/0"
 veg_test_path = "fruitvsvegetable/test/1"
 
 if need_show_img:
-    show_img(fruit_train_path, 10, name='fruit_train')
-    show_img(veg_train_path, 10, name='veg_train')
-    show_img(fruit_test_path, 10, name='fruit_test')
-    show_img(veg_test_path, 10, name='veg_test')
+    show_img(fruit_train_path, 5, name='fruit_train')
+    show_img(veg_train_path, 5, name='veg_train')
+    show_img(fruit_test_path, 5, name='fruit_test')
+    show_img(veg_test_path, 5, name='veg_test')
 
 start_time = time.time()
 fruit_train_img = get_and_transform_img(fruit_train_path, need_resize=need_resize, size=size_to_resize)
